@@ -1,0 +1,172 @@
+@charset "utf-8";
+/************************ PAGE ACCUEIL  *****************************/
+header.menu-mobile{
+	display: none;
+}
+#hamburger{
+	display: none;
+}
+header.menu-desktop nav.navigation{
+	display: block;
+}
+header.menu-desktop div.social-media{
+	display:block;
+}
+.list-sub-menu{
+	display: block;
+}
+/* ************************************************ */
+
+/* *************** MARGIN BLOCK **************** */
+.mg-section{
+    padding-left: 17%;
+    padding-right: 17%;
+}
+.titre-competences h1{
+	font-size: 3em;
+}
+.casquettes{
+	display: flex;
+}
+.casquettes,.echantillon-travaux{
+	/* .echantillon-travaux */
+	margin: 50px 17% auto 17%;
+	text-align: center;
+}
+.link-comptences{
+	padding-top: 100px;
+}
+.general-section-white{
+	font-size: 3.5em;
+}
+.general-section{
+	font-size: 3.5em;
+}
+.link-contact{
+	width: 100%;
+	padding-top: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.article-section{
+	margin: auto 17%;
+}
+.header-general div.header-cat{
+	margin: auto 17%;
+	padding-top: 80px;
+}
+.header-general div.header-accroche{
+	margin: auto 17%;
+	padding-top: 20px;
+}
+.list-fonctionnelle article{
+	margin: 20px;
+}
+.block-competences{
+	width: 45%;
+}
+.block-competences:nth-child(1),
+.block-competences:nth-child(3),
+.block-competences:nth-child(5),
+.block-competences:nth-child(7){
+    margin-right: 5%;
+}
+.icon-competences{
+    width: 25%;
+}
+.info-competences{
+    width: 75%;
+}
+.organisation{
+    margin: 0px 20% auto 20%;
+}
+.identite,.info-identite{
+	width: 30%;
+	float: left;
+}
+.parcours-objectif,.parcours-presentation{
+	width: 70%;
+	float: right;
+}
+.poste-dev,.list-travaux{
+	/* .list-travaux */
+	width: 280px;	
+}
+.poste-environement{
+    display: flex;
+}
+.poste-occupe{
+    width: 50%;
+}
+.env-travx{
+    width: 50%;
+    border-left: 2px solid #4E4F62;
+    height: 100%;
+    margin: 20px 0px;
+    padding: 0px 20px;
+}
+.name-poste-occupe h3{
+	font-size: 2.4em;
+	padding-right:30px;
+}
+.techno-img{
+	padding: 30px;
+}
+.detail-mission{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.precedent,.suivant{
+	width: 49%;	
+}
+.arrow-up>a>span{
+	font-size: 3em;
+}
+.footer-social-media{
+	margin-left: 17%;
+	margin-right: 17%;
+}
+.arrow-precedent span.glyphicon,.arrow-suivant span.glyphicon{
+	font-size: 70px;
+}
+.filter-categories{
+	display: flex;
+	min-height: 45px;
+}
+.choix-categorie{
+	width: 49%;
+	display: inline-block;
+}
+.je-filtre{
+	width: 49%;
+	display: inline-block;
+	border-right: 1px solid #8ED1D4;
+}
+/* *************** POLICE BLOCK **************** */
+.header-general div.header-accroche h1{
+	font-size: 3.5em;
+}
+.form-submit input{
+	font-size: 1.8em;
+}
+/* **************** PAGE CONTACT *************** */
+
+.form-left{
+	float: left;
+	width: 50%;
+}
+.form-right{
+	float: right;
+	width: 50%;
+}
+
+.parcours-presentation p{
+	text-align: justify;
+}
+.parcours-objectif p{
+	text-align: justify;
+}
+
+
+
+

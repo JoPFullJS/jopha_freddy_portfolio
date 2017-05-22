@@ -1,0 +1,40 @@
+Qui suis-je?
+
+	En bref
+		nom, prenom, poste, petite description de moi, bouton contact
+	Qu'est-ce qu'un developpeur front End
+	Qu'est-ce qu'un developpeur back end
+	Qu'est-ce qu'un UI designer
+
+Domaines d'interventions
+
+Javascript
+html
+css
+developpement
+intégration
+webdesign
+php
+mysql
+W3C
+
+Services
+
+web design
+ergonomie
+developpement web
+intégration
+charte graphique
+référencement naturel
+responsive
+prestashop
+
+
+ce qu'il manque pour que le site soit complet pour la phase final
+
+google analytics
+trouver des image pour les header categorie travaux
+ajouter les input file dans la parti administration
+ajouter les liens pour les réseaux sociaux
+
+et eventuellemnt les balise og et twitter pour les travaux

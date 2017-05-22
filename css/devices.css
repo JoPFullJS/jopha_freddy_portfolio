@@ -1,0 +1,15 @@
+
+/* CSS commun pour tous les devices */
+@import url("common.css");
+
+/* ---------- CSS pour les ordinateurs / PC ------------ */
+@import url("desktops.css") only screen and (min-width:993px);
+
+/* ---------- CSS pour les tablettes ------------ */
+@import url("tablettes.css") only screen and (min-width:481px) and (max-width:992px);
+
+/* ---------- CSS pour les smartphones ------------ */
+@import url("smartphones.css") only screen and (max-width:480px);
+
+
+

@@ -1,0 +1,113 @@
+.update,.delete{
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
+.update a,.delete a{
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+	color: #FFFFFF;
+	padding: 5px;
+	margin: 10px 30px;
+	
+}
+.update a{
+	background-color: #369195;
+}
+.delete a{
+	background-color: #F75D59;
+}
+.intervention_content{
+	width: 275px;
+	display: inline-block;
+}
+.insert_element{
+	margin: auto 17%;
+	text-align: center;
+	height: 100px;
+}
+.insert_element a{
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 2em;
+	color: #FFFFFF;
+	line-height: 100px;
+	text-transform: uppercase;
+	background-color: #369195;
+}
+.insert_element a:hover{
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 2em;
+	color: #0E6A6E;
+	line-height: 100px;
+	text-transform: uppercase;
+	background-color: #8ED1D4;
+}
+.logout{
+	position: absolute;
+	right: 15px;
+	top: 0;
+	height: 65px;
+	width: 150px;
+	text-align: center;
+}
+.logout a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 65px;
+	background-color: #5aafb3;
+	border-left: 1px solid #208387;
+	border-right: 1px solid #208387;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 1.2em;
+}
+.logout a:hover{
+	background-color: #208387 !important;
+	color: white;
+}
+.centrer{
+	text-align: center;
+}
+.content_admin{
+	display: inline-block;
+	width: 250px;
+	height: 200px;
+	text-align: center;
+	margin: 20px;
+}
+.content_admin a{
+	display: block;
+	line-height: 200px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 2em;
+}
+.content_admin_bg{
+	background-color: #208387;
+}
+.select_admin_bg:hover{
+	background-color: #8ED1D4 !important;
+	color: #208387;
+}
+.content_admin_logout{
+	background-color: #B61B17;
+}
+.select_admin_logout:hover{
+	background-color: #FFACAA !important;
+	color: #B61B17;
+}
+.login_form{
+	margin-top: 10%;
+}

@@ -1,0 +1,60 @@
+# Redirection pour les pages indéfini ou des dossiers non accessible à l'utilisateur
+
+ErrorDocument 404 http://www.jophafreddy.fr/error404/
+ErrorDocument 403 http://www.jophafreddy.fr/
+
+RewriteEngine on
+
+# Redirection pour la parti Front End
+
+RewriteRule ^travaux/$ travaux/front-end/
+RewriteRule ^travaux/front-end/$ travaux/front-end.php?domaine=1
+RewriteRule ^travaux/back-end/$ travaux/back-end.php?domaine=2
+RewriteRule ^travaux/ui-design/$ travaux/ui-design.php?domaine=3
+RewriteRule ^travaux/front-end/([a-z0-9\-]+)/$ travaux/categorie.php?categorie=$1  
+RewriteRule ^travaux/front-end/([a-z0-9\-]+)/([a-z0-9\-]+)/$ travaux/article.php?categorie=$1&titre=$2
+RewriteRule ^travaux/back-end/([a-z0-9\-]+)/$ travaux/categorie.php?categorie=$1  
+RewriteRule ^travaux/back-end/([a-z0-9\-]+)/([a-z0-9\-]+)/$ travaux/article.php?categorie=$1&titre=$2
+RewriteRule ^travaux/ui-design/([a-z0-9\-]+)/$ travaux/categorie.php?categorie=$1  
+RewriteRule ^travaux/ui-design/([a-z0-9\-]+)/([a-z0-9\-]+)/$ travaux/article.php?categorie=$1&titre=$2
+
+RewriteRule ^presentation/$ presentation/qui-suis-je/
+RewriteRule ^presentation/qui-suis-je/$ presentation/qui-suis-je.php
+RewriteRule ^presentation/domaines-intervention/$ presentation/domaines-intervention.php
+RewriteRule ^presentation/domaines-intervention/([a-z0-9\-]+)/$ presentation/action.php?domaine=$1
+RewriteRule ^presentation/mes-services/$ presentation/mes-services.php
+RewriteRule ^competences/$ competences.php
+RewriteRule ^contact/$ contact.php
+
+# Redirection de la page d'erreur 404
+
+RewriteRule ^error404/$ error.php
+
+# Redirection pour le Back Office
+
+RewriteRule ^jw_admin712/$ jw_admin712/main.php
+RewriteRule ^jw_admin712/services/$ jw_admin712/services/list.php
+RewriteRule ^jw_admin712/services/([a-z0-9\-]+)/$ jw_admin712/services/update.php?&titre=$1
+RewriteRule ^jw_admin712/services/delete/([0-9\-]+)/$ jw_admin712/services/delete.php?&numero=$1
+RewriteRule ^jw_admin712/services/insert/new/$ jw_admin712/services/insert.php  
+RewriteRule ^jw_admin712/domaines-intervention/$ jw_admin712/domaines-intervention/list.php
+RewriteRule ^jw_admin712/domaines-intervention/([a-z0-9\-]+)/$ jw_admin712/domaines-intervention/update.php?&titre=$1
+RewriteRule ^jw_admin712/domaines-intervention/delete/([0-9\-]+)/$ jw_admin712/domaines-intervention/delete.php?&numero=$1
+RewriteRule ^jw_admin712/domaines-intervention/insert/new/$ jw_admin712/domaines-intervention/insert.php
+RewriteRule ^jw_admin712/competences/$ jw_admin712/competences/list.php
+RewriteRule ^jw_admin712/competences/([a-z0-9\-]+)/$ jw_admin712/competences/update.php?&titre=$1
+RewriteRule ^jw_admin712/competences/delete/([0-9\-]+)/$ jw_admin712/competences/delete.php?&numero=$1
+RewriteRule ^jw_admin712/competences/insert/new/$ jw_admin712/competences/insert.php
+RewriteRule ^jw_admin712/experiences/$ jw_admin712/experiences/list.php
+RewriteRule ^jw_admin712/experiences/([0-9\-]+)/$ jw_admin712/experiences/update.php?&id=$1
+RewriteRule ^jw_admin712/experiences/delete/([0-9\-]+)/$ jw_admin712/experiences/delete.php?&numero=$1
+RewriteRule ^jw_admin712/experiences/insert/new/$ jw_admin712/experiences/insert.php
+RewriteRule ^jw_admin712/travaux/$ jw_admin712/travaux/list.php
+RewriteRule ^jw_admin712/travaux/([a-z0-9\-]+)/$ jw_admin712/travaux/update.php?&titre=$1
+RewriteRule ^jw_admin712/travaux/delete/([0-9\-]+)/$ jw_admin712/travaux/delete.php?&numero=$1
+RewriteRule ^jw_admin712/travaux/insert/new/$ jw_admin712/travaux/insert.php
+
+# Redirection pour la connexion et déconnexion de l'administrateur
+
+RewriteRule ^jw_admin712/login/$ jw_admin712/login.php
+RewriteRule ^jw_admin712/login/([a-z0-9\-]+)/$ jw_admin712/login.php?out=$1
