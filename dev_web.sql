@@ -34,6 +34,12 @@ CREATE TABLE `categories` (
   `description` varchar(200) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+--id_categorie : l'identifiant unique de la catégorie
+--Nom : le nom de la catégorie
+--Slug : le slug utilisé pour les URI
+--Titre : pour la balise meta title de la page correspondante
+--Description : pour la balise meta description de la page correspondante
+
 --
 -- Contenu de la table `categories`
 --
