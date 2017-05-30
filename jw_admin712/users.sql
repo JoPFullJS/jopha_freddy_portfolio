@@ -37,7 +37,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`) VALUES
-(1, 'jfreddy', 'b0ed85a4f846856c93ab5fc15675298d225e36fb');
+(1, 'jfreddy', 'xxxxxxxxxxxxxxxxxxxxxxxxxxx');
 
 --
 -- Index pour les tables exportées
